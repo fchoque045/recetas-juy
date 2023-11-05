@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: StatusBar.currentHeight,
-    backgroundColor: COLORS.white
+    backgroundColor: COLORS.background
   },
   title: {
     fontSize: FONT_SIZE.lg,
