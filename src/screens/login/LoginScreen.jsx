@@ -24,7 +24,7 @@ export const LoginScreen = () => {
       .then(users => {
         const user = users[0]
         if (email === user.email && password === user.password) {
-            setCurrentUser({ email, password })
+            setCurrentUser({ email, password, add: 0 })
             navigation.navigate('Main')
         }
       })

@@ -25,3 +25,9 @@ Correr la app
 ```
 npx expo start
 ```
+
+## Credenciales de Login
+
+email: admin
+
+password: admin
