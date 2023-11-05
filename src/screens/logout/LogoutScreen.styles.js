@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 20,
-    marginTop: 180,
+    marginTop: 200,
     marginHorizontal: 50,
     alignItems: 'center'
   },
@@ -36,16 +36,5 @@ export const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 18,
     fontWeight: 'bold'
-  },
-  containerLogo: {
-    width: '100%',
-    height: '50%',
-  },
-  logo: {
-    resizeMode: 'cover',
-    width: '100%',
-    height: '80%',
-    justifyContent: 'flex-end',
-    alignItems: 'center'
-  },
+  }
 })

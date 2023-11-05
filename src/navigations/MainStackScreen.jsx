@@ -5,13 +5,14 @@ import { AddRecipeScreen } from '../screens/recipe/AddRecipeScreen'
 import { Ionicons } from '@expo/vector-icons'
 import { COLORS, SPACING } from '../utils/theme'
 import { StyleSheet } from 'react-native'
-import { RecipeDetailScreen } from '../screens/recipe/RecipeDetailScreen'
+import { LogoutScreen } from '../screens/logout/LogoutScreen'
 
 const Tab = createBottomTabNavigator()
 
 const TAB_ICON = {
   Inicio: 'home',
   Agregar: 'add-circle',
+  Salir: 'exit'
 }
 
 const screenOptions = ({ route }) => {
@@ -33,6 +34,7 @@ export const MainStackScreen = () => {
       <Tab.Navigator screenOptions={screenOptions}>
         <Tab.Screen name='Inicio' component={HomeScreen} />
         <Tab.Screen name='Agregar' component={AddRecipeScreen} />
+        <Tab.Screen name='Salir' component={LogoutScreen} />
       </Tab.Navigator>
     </>
   )
