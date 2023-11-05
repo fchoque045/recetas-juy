@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { SafeAreaView} from 'react-native'
+import { SafeAreaView } from 'react-native'
 import { SearchBar } from '../../components/search-bar/SearchBar'
 import { getRecipeList } from '../../api/recipe.service'
 import { styles } from '../home/HomeScreen.styles'
@@ -27,9 +27,9 @@ export const HomeScreen = () => {
 
 
   return (
-    <SafeAreaView style={styles.container}>
-      <SearchBar handleSearch={handleSearch} searchQuery={searchQuery} />
-      <RecipeList recipes={filteredRecipes}/>
-    </SafeAreaView>
+      <SafeAreaView style={styles.container}>
+        <SearchBar handleSearch={handleSearch} searchQuery={searchQuery} />
+        <RecipeList recipes={filteredRecipes}/>
+      </SafeAreaView>
   )
 }

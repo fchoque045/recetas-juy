@@ -1,10 +1,11 @@
 export const COLORS = {
     primary: '#813F40',
+    secundary: '#9A6D66',
     text: '#8E8E93',
     inactivePri: '#B69991',
     background: '#F2E9E2',
     white: '#FEF8F8',
-    grey: '#F5F5F5'
+    grey: '#B5AFA9'
   }
   export const SPACING = {
     xs: 4,

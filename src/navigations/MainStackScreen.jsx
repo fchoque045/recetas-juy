@@ -5,6 +5,7 @@ import { AddRecipeScreen } from '../screens/recipe/AddRecipeScreen'
 import { Ionicons } from '@expo/vector-icons'
 import { COLORS, SPACING } from '../utils/theme'
 import { StyleSheet } from 'react-native'
+import { RecipeDetailScreen } from '../screens/recipe/RecipeDetailScreen'
 
 const Tab = createBottomTabNavigator()
 
@@ -40,7 +41,7 @@ export const MainStackScreen = () => {
 const styles = StyleSheet.create({
   tabBar: {
     height: SPACING.xxxl,
-    backgroundColor: COLORS.grey,
+    backgroundColor: COLORS.background,
     paddingBottom: SPACING.xs,
     paddingTop: SPACING.xs
   }

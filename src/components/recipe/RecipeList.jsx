@@ -1,5 +1,5 @@
 import React from 'react'
-import { FlatList, Image, Pressable, Text, View } from 'react-native'
+import { FlatList, ScrollView , View } from 'react-native'
 import { RecipeCard } from './RecipeCard'
 
 export const RecipeList = ({recipes}) => {
@@ -9,7 +9,7 @@ export const RecipeList = ({recipes}) => {
                 data={recipes}
                 keyExtractor={(item) => item.id}
                 numColumns={2}
-                renderItem={({item}) => (<RecipeCard recipe={item}/>)}
+                renderItem={({item}) => (<RecipeCard item={item}/>)}
             />
         </View>
     )
