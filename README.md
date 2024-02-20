@@ -31,3 +31,7 @@ npx expo start
 email: admin
 
 password: admin
+
+## Prototipo 
+
+[![Ver video](https://i.postimg.cc/7PXxTDgF/logo.png)](https://youtu.be/_ds8FIp1REg)

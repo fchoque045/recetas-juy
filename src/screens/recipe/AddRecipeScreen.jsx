@@ -65,7 +65,7 @@ export const AddRecipeScreen = () => {
               onBlur={onBlur}
               onChangeText={onChange}
               value={value}
-              secureTextEntry
+              
             />
           )}
           name='description'
@@ -84,7 +84,7 @@ export const AddRecipeScreen = () => {
               onBlur={onBlur}
               onChangeText={onChange}
               value={value}
-              secureTextEntry
+              
             />
           )}
           name='ingredients'
@@ -103,7 +103,6 @@ export const AddRecipeScreen = () => {
               onBlur={onBlur}
               onChangeText={onChange}
               value={value}
-              secureTextEntry
             />
           )}
           name='preparation'
